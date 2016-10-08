@@ -48,6 +48,9 @@ end
 group :production do
   # Use PostgreSQL by default on Heroku
   gem 'pg'
+  
+  #gem required by heroku for hoosting application
+  gem 'rails_12factor'
 end
 
 # Devise gem used for Authentication
@@ -55,3 +58,6 @@ gem 'devise', '~> 4.0'
 
 # Active Admin gem used for admin related actions.
 gem 'activeadmin', github: 'activeadmin'
+
+# Ruby version used in the application
+ruby "2.3.0"
