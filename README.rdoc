@@ -6,16 +6,24 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+version => 2.3.0
 
 * System dependencies
+RVM, Rails4.2.7 etc
 
 * Configuration
+Install devise and activeadmin
 
 * Database creation
+rake db:create
 
 * Database initialization
+rake db:migrate => creates a dummy admin user with the following credentials.
+email: admin@cartapp.com
+password: admin123
 
 * How to run the test suite
+Not written
 
 * Services (job queues, cache servers, search engines, etc.)
 
